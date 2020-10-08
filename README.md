@@ -1,5 +1,3 @@
-# landing-page-bottom-globe
-
 <p align="center">
     <h2 align="center">Landing Page Bottom Globe</h2>
     <p align="center">This repository is basically about enhancing the existing landing page and adjusting image at bottom side like screenshot below. Also to remove the overflow and prevent the page from scrolling (Fit to every size of the device screen).</p>
