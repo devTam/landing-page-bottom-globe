@@ -244,7 +244,8 @@ input.input100 {
 [ Size ]*/
 .size1 {
   width: 100%;
-  min-height: 100vh;
+  /* my added styles */
+  max-height: 100vh;
 }
 
 .size2 {
@@ -285,6 +286,8 @@ input.input100 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* my added styles */
+  background-position-y: 50px;
 }
 
 /*---------------------------------------------*/
@@ -490,6 +493,17 @@ input.input100 {
   .respon1 {
     padding-top: 80px;
   }
+
+  /* my added styles */
+  .wrappic1 img {
+    height: 170px !important;
+  }
+  .m1-txt1 {
+    font-size: 44px;
+  }
+  .l1-txt2 {
+    font-size: 25px;
+  }
   
 }
 
@@ -516,4 +530,13 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+    
+}
+
+@media only screen and (max-width: 350px) {
+  /* my added styles */  
+    .m1-txt1 {
+      font-size: 35px;
+    }
+    
 }
