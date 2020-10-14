@@ -288,6 +288,7 @@ input.input100 {
   background-size: cover;
   /* my added styles */
   background-position-y: 50px;
+  height: 100%;
 }
 
 /*---------------------------------------------*/
